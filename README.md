@@ -15,10 +15,9 @@ This study provides a unified comparative analysis of five state-of-the-art pret
 1. [Overview & Methodology](#overview--methodology)
 2. [Dataset](#dataset)
 3. [Repository Structure](#Repository-Structure)
-4. [File Descriptions](#file-descriptions)
-5. [Key Results](#key-results)
-6. [How to Run](#how-to-run)
-7. [Citation](#citation)
+4. [Key Results](#key-results)
+5. [How to Run](#How-To-Run)
+6. [Citation](#Citation)
 
 ---
 
@@ -96,20 +95,23 @@ Our findings establish that deeper, higher-capacity models significantly outperf
 
 Detailed per-class metrics and confusion matrices can be found in the respective architecture folders.
 
-How to Run
-1. Prerequisites
+## How to Run
+
+### Prerequisites
 Ensure you have Python 3.8+ installed along with the required libraries:
 !pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
-2. Dataset Setup
+### Dataset Setup
 Download the dataset from Kaggle and update the DATA_PATH variable inside the .py script of the model you wish to run to point to your local dataset directory.
-3. Execution
+### Execution
 Navigate to the desired model's folder and execute the script. For example, to train DenseNet121:
 cd DenseNet121
 python DenseNet121.py
 Note: The scripts are configured to automatically utilize available GPUs and mixed precision (float16) for accelerated training.
-Citation
+
+## Citation
+
 If you use this code, the methodology, or the pre-trained models in your research, please cite our paper:
-Bibtex
+
 @inproceedings{...,
   title={A Comparative Study of CNN Architectures for Histopathological Image Classification},
   author={...},
