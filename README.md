@@ -12,11 +12,11 @@ This study provides a unified comparative analysis of five state-of-the-art pret
 ---
 
 ## Table of Contents
-1. [Overview & Methodology](#overview-methodology)
+1. [Overview & Methodology](#overview--methodology)
 2. [Dataset](#dataset)
-3.[Repository Structure](#repository-structure)
+3. [Repository Structure](#repository-structure)
 4. [File Descriptions](#file-descriptions)
-5.[Key Results](-key-results)
+5. [Key Results](#key-results)
 6. [How to Run](#how-to-run)
 7. [Citation](#citation)
 
@@ -53,42 +53,74 @@ Experiments were conducted on the **KMC Renal Cell Carcinoma (RCC) Dataset**, wh
 The repository is organized into five main directories, one for each evaluated architecture. Every directory is self-contained with its specific training script, saved models, training logs, and generated visual plots.
 
 ├── DenseNet121/
+
 ├── EfficientNetB0/
+
 ├── InceptionResNetV2/
+
 ├── InceptionV3/
+
 └── MobileNetV3Small/
+
 Inside each architecture folder:
-code
+
+
 Text[Architecture_Name]/
+
 │
+
 ├── [Architecture_Name].py                 # The main Python training/evaluation script
+
 ├── best_model_phase1.keras                # Checkpoint: Best weights from initial frozen training
+
 ├── best_model_final.keras                 # Checkpoint: Best weights after fine-tuning
+
 ├── final_model.keras                      # The final exported model
+
 │
+
 ├── evaluation_results.json                # Comprehensive metrics (F1, Precision, Recall, AUC, etc.)
+
 ├── experiment_summary.json                # Metadata (hyperparameters, splits, final accuracies)
+
 │
+
 ├── Log.txt                                # Raw console outputs during execution
+
 ├── training_phase1.csv                    # Epoch-by-epoch logs for Phase 1
+
 ├── training_phase2.csv                    # Epoch-by-epoch logs for Phase 2
+
 │
+
 ├── fig1_training_history.png              # Accuracy/Loss curves across both phases
+
 ├── fig2_confusion_matrix.png              # Normalized & Raw confusion matrices
+
 ├── fig3_roc_curves.png                    # One-vs-Rest ROC curves per class
+
 ├── fig4_precision_recall_curves.png       # Precision-Recall curves per class
+
 ├── fig5_per_class_metrics.png             # Bar chart of precision, recall, and F1 per class
+
 ├── fig6_class_distribution.png            # Data distribution across Train/Val/Test splits
+
 └── training_history.png                   # Summarized training visualization
-Key Results
+
+## Key Results
+
 Our findings establish that deeper, higher-capacity models significantly outperform lightweight models for fine-grained histopathological grading when using standard fine-tuning strategies. DenseNet121 emerged as the optimal backbone.
-Model	Accuracy	Macro-F1	Precision	Recall	Cohen's κ
-DenseNet121	93.78%	93.63%	93.69%	93.67%	92.22%
-InceptionResNetV2	93.28%	93.11%	93.25%	93.10%	91.59%
-InceptionV3	91.79%	91.53%	91.80%	91.59%	89.72%
-MobileNetV3-Small	73.13%	73.39%	75.20%	73.62%	66.46%
-EfficientNetB0	47.26%	43.17%	45.89%	47.19%	33.89%
+
+| Model | Accuracy | Macro-F1 | Precision | Recall | Cohen's κ |
+|-------|----------|----------|-----------|--------|-----------|
+| DenseNet121 | 93.78% | 93.63% | 93.69% | 93.67% | 92.22% |
+| InceptionResNetV2 | 93.28% | 93.11% | 93.25% | 93.10% | 91.59% |
+| InceptionV3 | 91.79% | 91.53% | 91.80% | 91.59% | 89.72% |
+| MobileNetV3-Small | 73.13% | 73.39% | 75.20% | 73.62% | 66.46% |
+| EfficientNetB0 | 47.26% | 43.17% | 45.89% | 47.19% | 33.89% |
+
 Detailed per-class metrics and confusion matrices can be found in the respective architecture folders.
+
 How to Run
 1. Prerequisites
 Ensure you have Python 3.8+ installed along with the required libraries:
