@@ -51,11 +51,11 @@ Experiments were conducted on the **KMC Renal Cell Carcinoma (RCC) Dataset**, wh
 
 The repository is organized into five main directories, one for each evaluated architecture. Every directory is self-contained with its specific training script, saved models, training logs, and generated visual plots.
 
-├── DenseNet121/
-├── EfficientNetB0/
-├── InceptionResNetV2/
-├── InceptionV3/
-└── MobileNetV3Small/
+├── DenseNet121/  
+├── EfficientNetB0/  
+├── InceptionResNetV2/  
+├── InceptionV3/  
+└── MobileNetV3Small/  
 
 Inside each architecture folder:
 
