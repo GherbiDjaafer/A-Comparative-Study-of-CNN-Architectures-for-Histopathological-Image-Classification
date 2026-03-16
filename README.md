@@ -113,13 +113,13 @@ Note: The scripts are configured to automatically utilize available GPUs and mix
 If you use this code, the methodology, or the pre-trained models in your research, please cite our paper:
 
 bibtex
-@inproceedings{...,
-  title={A Comparative Study of CNN Architectures for Histopathological Image Classification},
-  author={...},
-  booktitle={[International Conference on Data Analytics and Intelligent Systems (DAIS'2026)]},
-  series={Communications in Computer and Information Science (CCIS)},
-  publisher={Springer Nature Switzerland AG},
-  year={...}
-}
+@inproceedings{...,  
+  title={A Comparative Study of CNN Architectures for Histopathological Image Classification},  
+  author={...},  
+  booktitle={[International Conference on Data Analytics and Intelligent Systems (DAIS'2026)]},  
+  series={Communications in Computer and Information Science (CCIS)},  
+  publisher={Springer Nature Switzerland AG},  
+  year={...}  
+}  
 
 For questions or collaborations, please reach out via the provided university email addresses in the paper.
