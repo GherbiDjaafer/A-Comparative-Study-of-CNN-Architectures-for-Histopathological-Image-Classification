@@ -1,4 +1,4 @@
-# A Comparative Study of CNN Architectures for Histopathological Image Classification 🔬💻
+# A Comparative Study of CNN Architectures for Histopathological Image Classification
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18+-FF6F00?logo=tensorflow)](https://www.tensorflow.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python)](https://www.python.org/)
