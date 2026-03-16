@@ -1,0 +1,21 @@
+{
+    "experiment_name": "EfficientNetB0_20251220_105111",
+    "timestamp": "2025-12-20T11:29:41.876919",
+    "configuration": "{'__module__': '__main__', '__doc__': 'Centralized configuration for reproducibility', 'EXPERIMENT_NAME': 'EfficientNetB0_20251220_105111', 'SEED': 42, 'DATA_PATH': '/kaggle/input/kmc-renal/KMC_Dataset_for_grading (1)', 'OUTPUT_PATH': '/kaggle/working', 'CATEGORIES': ['0 (1)', '1 (1)', '2 (1)', '3 (1)', '4 (1)'], 'NUM_CLASSES': 5, 'INITIAL_EPOCHS': 10, 'FINE_TUNE_EPOCHS': 50, 'IMG_SIZE': (224, 224), 'BATCH_SIZE': 8, 'INITIAL_LR': 0.0005, 'FINE_TUNE_LR': 5e-05, 'DROPOUT_1': 0.3, 'DROPOUT_2': 0.2, 'CBAM_RATIO': 8, 'CBAM_KERNEL': 7, 'total_layers': 238, 'UNFREEZE_FROM_LAYER': 166, 'TRAIN_RATIO': 0.8, 'VAL_RATIO': 0.1, 'TEST_RATIO': 0.1, 'USE_MIXED_PRECISION': True, 'get_output_dir': <classmethod(<function Config.get_output_dir at 0x7812ba032980>)>, '__dict__': <attribute '__dict__' of 'Config' objects>, '__weakref__': <attribute '__weakref__' of 'Config' objects>}",
+    "data_split": {
+        "train": 3210,
+        "validation": 401,
+        "test": 402
+    },
+    "final_metrics": {
+        "test_accuracy": 0.4726368188858032,
+        "test_loss": 1.2312190532684326,
+        "weighted_f1": 0.42809657190406447,
+        "macro_f1": 0.43167117288691575,
+        "mcc": 0.35487575761063933,
+        "cohens_kappa": 0.3389132374044914,
+        "macro_roc_auc": 0.8132037690166898,
+        "macro_pr_auc": 0.5314021732692158
+    },
+    "output_directory": "/kaggle/working/EfficientNetB0_20251220_105111"
+}
