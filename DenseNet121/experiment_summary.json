@@ -1,0 +1,21 @@
+{
+    "experiment_name": "DenseNet121_20251220_103749",
+    "timestamp": "2025-12-20T11:20:19.386589",
+    "configuration": "{'__module__': '__main__', '__doc__': 'Centralized configuration for reproducibility', 'EXPERIMENT_NAME': 'DenseNet121_20251220_103749', 'SEED': 42, 'DATA_PATH': '/kaggle/input/kmc-renal/KMC_Dataset_for_grading (1)', 'OUTPUT_PATH': '/kaggle/working', 'CATEGORIES': ['0 (1)', '1 (1)', '2 (1)', '3 (1)', '4 (1)'], 'NUM_CLASSES': 5, 'INITIAL_EPOCHS': 10, 'FINE_TUNE_EPOCHS': 50, 'IMG_SIZE': (224, 224), 'BATCH_SIZE': 8, 'INITIAL_LR': 0.0005, 'FINE_TUNE_LR': 5e-05, 'DROPOUT_1': 0.3, 'DROPOUT_2': 0.2, 'CBAM_RATIO': 8, 'CBAM_KERNEL': 7, 'total_layers': 427, 'UNFREEZE_FROM_LAYER': 298, 'TRAIN_RATIO': 0.8, 'VAL_RATIO': 0.1, 'TEST_RATIO': 0.1, 'USE_MIXED_PRECISION': True, 'get_output_dir': <classmethod(<function Config.get_output_dir at 0x78c43c93f7e0>)>, '__dict__': <attribute '__dict__' of 'Config' objects>, '__weakref__': <attribute '__weakref__' of 'Config' objects>}",
+    "data_split": {
+        "train": 3210,
+        "validation": 401,
+        "test": 402
+    },
+    "final_metrics": {
+        "test_accuracy": 0.9378109574317932,
+        "test_loss": 0.16780264675617218,
+        "weighted_f1": 0.9370647938321905,
+        "macro_f1": 0.9362597456111104,
+        "mcc": 0.9224728641452494,
+        "cohens_kappa": 0.9221798922133433,
+        "macro_roc_auc": 0.995591230596961,
+        "macro_pr_auc": 0.9832625568815925
+    },
+    "output_directory": "/kaggle/working/DenseNet121_20251220_103749"
+}
