@@ -13,7 +13,7 @@ This study provides a unified comparative analysis of five state-of-the-art pret
 
 ## Table of Contents
 1. [Overview & Methodology](#-overview--methodology)
-2. [Dataset](#-dataset)
+2. [Dataset](#dataset)
 3.[Repository Structure](#-repository-structure)
 4. [File Descriptions](#-file-descriptions)
 5.[Key Results](#-key-results)
