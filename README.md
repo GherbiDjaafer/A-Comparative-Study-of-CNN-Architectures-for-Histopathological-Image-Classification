@@ -112,12 +112,12 @@ Note: The scripts are configured to automatically utilize available GPUs and mix
 
 If you use this code, the methodology, or the pre-trained models in your research, please cite our paper:
 
-@inproceedings{...,
-  title={A Comparative Study of CNN Architectures for Histopathological Image Classification},
-  author={...},
-  booktitle={...},
-  year={...},
-  organization={...}
-}
+@inproceedings{...,  
+  title={A Comparative Study of CNN Architectures for Histopathological Image Classification},  
+  author={...},  
+  booktitle={...},  
+  year={...},  
+  organization={...}  
+}  
 
 For questions or collaborations, please reach out via the provided university email addresses in the paper.
