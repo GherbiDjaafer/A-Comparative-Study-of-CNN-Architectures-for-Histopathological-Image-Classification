@@ -98,15 +98,15 @@ Detailed per-class metrics and confusion matrices can be found in the respective
 ## How to Run
 
 ### Prerequisites
-Ensure you have Python 3.8+ installed along with the required libraries:
-!pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
+Ensure you have Python 3.8+ installed along with the required libraries:  
+!pip install tensorflow pandas numpy scikit-learn matplotlib seaborn  
 ### Dataset Setup
-Download the dataset from Kaggle and update the DATA_PATH variable inside the .py script of the model you wish to run to point to your local dataset directory.
+Download the dataset from Kaggle and update the DATA_PATH variable inside the .py script of the model you wish to run to point to your local dataset directory.  
 ### Execution
-Navigate to the desired model's folder and execute the script. For example, to train DenseNet121:
-cd DenseNet121
-python DenseNet121.py
-Note: The scripts are configured to automatically utilize available GPUs and mixed precision (float16) for accelerated training.
+Navigate to the desired model's folder and execute the script. For example, to train DenseNet121:  
+cd DenseNet121  
+python DenseNet121.py  
+Note: The scripts are configured to automatically utilize available GPUs and mixed precision (float16) for accelerated training.  
 
 ## Citation
 
