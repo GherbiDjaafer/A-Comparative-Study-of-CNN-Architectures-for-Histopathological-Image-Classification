@@ -4,6 +4,8 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Dataset: KMC RCC](https://img.shields.io/badge/Dataset-KMC_RCC-blue)](https://www.kaggle.com/datasets/shreyan983/kmc-renal)
+[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.19067913-1682d4?logo=zenodo)](https://doi.org/10.5281/zenodo.19067913)
+
 
 This repository contains the official code, models, and evaluation results for the paper: **"A Comparative Study of CNN Architectures for Histopathological Image Classification."** 
 
